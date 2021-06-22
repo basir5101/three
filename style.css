@@ -1,0 +1,101 @@
+
+*{
+    font-family: Roboto Condensed, sans-serif;
+}
+.heading{
+    font-weight: bold;
+    color: #ea7510;
+    position: relative;
+    margin: 30px 0px;
+}
+
+/* banner */
+.banner a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ea7510;
+    padding:  10px 10px;
+    margin: 10px 0px;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+.banner a:hover{
+    background-color: #ea7510;
+    color: white;
+}
+
+/* product */
+.products button, .drawing button,  .design button{
+    border: 1px solid #ea7510;
+    font-weight: bold;
+    padding: 5px 20px;
+    transition: all 0.3s;
+}
+.products button:hover, .drawing button:hover{
+    background-color: #ea7510;
+    color: white;
+}
+.category h5 a{
+    font-weight: bold;
+    color: #ea7510;
+    text-decoration: none;
+}
+.category h5 a:hover{
+    color: #1b75bb;
+    transition: 0.3s;
+}
+
+.category p a, .threed a{
+    text-decoration: none;
+    color: #1b75bb;
+    transition: 0.2s;
+}
+.category a:hover, .threed a:hover{
+    color: #ea7510;
+}
+
+
+/* feature drawing */
+.drawing h5 a, .buying h5 a, .design h5 a{
+    font-weight: bold; 
+    color: #1b75bb;
+    text-decoration: none;
+}
+.drawing h5 a:hover, .buying h5 a:hover, .design h5 a:hover{
+    color: #ea7510;
+    transition: 0.3s;
+}
+
+/* buying  */
+.buying button{
+    border: 1px solid #ea7510;
+    font-weight: bold;
+    padding: 5px 20px;
+    transition: all 0.3s;
+    color: white;
+}
+.buying button:hover{
+    color: #1b75bb;
+}
+/* desing */
+.design button:hover{
+    color: #1b75bb;
+}
+.design .browse:hover{
+    color: #ea7510;
+}
+
+/* footer */
+.footer h6{
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #1b75bb;
+    transition: all 0.3s;
+}
+.footer a:hover{
+    color: #ea7510;
+}
